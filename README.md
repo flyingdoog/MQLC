@@ -58,25 +58,9 @@ Column:
 161938
 201570
 
-Note that in the input files, lines starting with "#" are considered as comments.
 
-For output file: MRW will output detected communities for each query node in a line. Note that, if some query nodes are merged together, i.e., MRW considers them coming from the same community, it will show, for example, the following results:
---------------------------------------------------------------------------------
-# Detected Community for Query node 1: 201574
-201574	216724	215112	252984	201572	201570	161938	277248	487203	512040	42687	523685	
-
-# Detected Community for Query node 2: 42687	MERGES with Query node 1: 201574
-201574	216724	215112	252984	201572	201570	161938	277248	487203	512040	42687	523685	
-
-# Detected Community for Query node 3: 161938	MERGES with Query node 1: 201574
-201574	216724	215112	252984	201572	201570	161938	277248	487203	512040	42687	523685	
-
-# Detected Community for Query node 4: 201570	MERGES with Query node 1: 201574
-201574	216724	215112	252984	201572	201570	161938	277248	487203	512040	42687	523685	
---------------------------------------------------------------------------------
-
-Query node 2, 3 and 4 are merged to Query node 1, which means these four nodes are considered to be from the same detected community.
 Reference
+
 @inproceedings{bian2018on,
   title={On Multi-Query Local Community Detection},
   author={Bian, Yuchen and Yan, Yaowei and Cheng, Wei and Wang, Wei, and Luo, Dongheng, and Zhang, Xiang},
