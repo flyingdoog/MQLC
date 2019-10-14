@@ -1,4 +1,4 @@
-# MQLC
+# On Multi-Query Local Community Detection
 This is a C++ implementation of "On Multi-Query Local Community Detection"
 
 Please refer to the following paper for details.
